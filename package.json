@@ -1,0 +1,38 @@
+{
+  "name": "liff-friend-gate",
+  "version": "0.1.0",
+  "description": "Gate any static web app behind a LINE friend-add, using LIFF + Supabase. Ships the secure, token-verified design.",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/liff-gate.js",
+  "files": [
+    "src/",
+    "config.example.js",
+    "supabase/",
+    "docs/",
+    "examples/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "check": "node --check src/liff-gate.js"
+  },
+  "keywords": [
+    "line",
+    "liff",
+    "supabase",
+    "auth",
+    "gate",
+    "friend-add",
+    "messaging-api",
+    "saas"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_GITHUB/liff-friend-gate.git"
+  },
+  "homepage": "https://github.com/YOUR_GITHUB/liff-friend-gate#readme",
+  "bugs": {
+    "url": "https://github.com/YOUR_GITHUB/liff-friend-gate/issues"
+  }
+}

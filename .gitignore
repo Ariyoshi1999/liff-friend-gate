@@ -1,0 +1,17 @@
+# Front-end config with your real (publishable) values
+config.js
+
+# Server-side secrets
+.env
+.env.local
+supabase/.env
+supabase/.env.local
+
+# Supabase local
+supabase/.branches
+supabase/.temp
+
+# OS / editor
+.DS_Store
+node_modules/
+*.log
